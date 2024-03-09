@@ -9,7 +9,7 @@ from Script import script
 from pyrogram.errors import ChatAdminRequired
 import asyncio 
 
-"""-----------------------------------------https://t.me/TG_LINKS_CHANNEL--------------------------------------"""
+"""-----------------------------------------https://t.me/anumitultrabots--------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -89,8 +89,8 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support Group', url="https://t.me/TG_SUPPORT_GROUP"),
-            InlineKeyboardButton('Owner', url="https://t.me/KUSHALHK")
+            InlineKeyboardButton('Support Group', url="https://t.me/anumitultrabots"),
+            InlineKeyboardButton('Owner', url="https://t.me/anumitultrabots")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
