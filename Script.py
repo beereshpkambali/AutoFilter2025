@@ -25,7 +25,7 @@ class script(object):
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Fork our repository and give star ⭐- <a href='https://t.me/anumitultrabots"'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
+Fork our repository and give star ⭐- <a href='https://t.me/anumitultrabots'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
 """
     
     KUSHAL_TXT = """ 
