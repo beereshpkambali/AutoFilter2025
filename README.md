@@ -11,7 +11,7 @@
 
 <a href='https://t.me/SHD_KHAN'>SHAHID KHAN 👨‍💻</a>.</b>
 
-<b><a href='https://t.me/TG_Bots_Supporter'>KISHORE 👨‍💻</a>.</b>
+<b><a href='https://t.me/anumitultrabots'>KISHORE 👨‍💻</a>.</b>
 
 <b><a href='https://t.me/parshucr'>parshucr 👨‍💻</a>.</b>
 

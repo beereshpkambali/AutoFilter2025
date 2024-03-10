@@ -1,4 +1,4 @@
-#All this codes are created by our developers @TG_Bots_Supporter @SHD_KHAN @anonymous7370
+#All this codes are created by our developers @anumitultrabots @SHD_KHAN @anonymous7370
 #we are nothing without your support please support us to bring more features in bot
 #♛┈⛧┈┈•༶❤ 𝗟𝗢𝗩𝗘 𝗬𝗢𝗨 𝗔𝗟𝗟 ❤༶•┈┈⛧┈♛
 import os
