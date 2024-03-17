@@ -1,5 +1,7 @@
 import datetime, time, os, asyncio,logging 
 from pyrogram import Client, filters
+from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
+from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
 from database.users_chats_db import db
 from info import ADMINS
 from utils import broadcast_messages, broadcast_messages_group
