@@ -1626,7 +1626,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
         ],[
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/anumitultrabots/391"), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1678,8 +1678,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ultrabotsadmin_bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/anumitultrabots/391") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
@@ -1705,8 +1705,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ultrabotsadmin_bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/anumitultrabots/391") 
         ],[  
             InlineKeyboardButton('CHECK PLANS', callback_data='check')                   
         ]]
@@ -1732,8 +1732,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ultrabotsadmin_bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/anumitultrabots/391") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
