@@ -106,6 +106,7 @@ async def clear_junk(user_id, message):
         logging.info(f"{user_id}-Removed from Database, since deleted account.")
         return False, "Deleted"
     except UserIsBlocked:
+        await db.delete_user(int(user_id))
         logging.info(f"{user_id} -Blocked the bot.")
         return False, "Blocked"
     except PeerIdInvalid:
