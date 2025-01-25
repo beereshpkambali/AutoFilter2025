@@ -97,7 +97,7 @@
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/Kushalhk/TG_BOTZ/blob/stream-feature/info.py) for more optional variables
+* Check [info.py](https://github.com/jakharamit44/AutoFilter/blob/main/info.py) for more optional variables
 
 
 <details><summary>Deploy To Heroku</summary>
@@ -115,7 +115,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com//jakharamit44/AutoFilter&branch=main&name=TG_FILTER_BOT)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com//jakharamit44/AutoFilter&branch=main&name=AutoFilter)
 </details>
 
 <details><summary>Deploy To Render</summary>
