@@ -1,34 +1,6 @@
-<p align="center">
-  <img src="https://graph.org/file/8e0fca27184354f479593.jpg" alt="TG_BOTZ Logo">
-</p>
 <h1 align="center">
   anumitultrabots
 </h1>
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+TG_BOTZ-Bot;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
-</p>
-<b>All this codes are created by our developers 
-
-<a href='https://t.me/SHD_KHAN'>SHAHID KHAN 👨‍💻</a>.</b>
-
-<b><a href='https://t.me/anumitultrabots'>KISHORE 👨‍💻</a>.</b>
-
-<b><a href='https://t.me/parshucr'>parshucr 👨‍💻</a>.</b>
-
-<b><a href='https://t.me/anonymous7370'>N33VARPV2 👨‍💻</a>.</b>
-
-<b><a href='https://github.com/Mujahith123'>MUJAHITH 👨‍💻</a>.</b>
-
-<b><a href='https://github.com/Joelkb'>JOEL 👨‍💻</a>.</b>
-
-<b><a href='https://github.com/TeamHMT'>TEAMHMT 👨‍💻</a>.</b>
-
-<b><u>
-we are nothing without your support please support us to bring more features in bot
-
-♛┈•༶❤ 𝗟𝗢𝗩𝗘 𝗬𝗢𝗨 𝗔𝗟𝗟 ❤༶•┈♛
-</b></u>
-
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
 - [x] 𝐼𝑀𝐷𝐵 𝑇𝑒𝑚𝑝𝑙𝑎𝑡𝑒 𝑆𝑒𝑡
@@ -68,10 +40,6 @@ we are nothing without your support please support us to bring more features in 
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
-
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/TG_BOTS_UPDATE'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
-
-<a href='https://t.me/TG_Autofilter1_Bot'>🅳︎🅴︎🅼︎🅾︎ 🅱︎🅾︎🆃︎</a>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
@@ -135,7 +103,7 @@ we are nothing without your support please support us to bring more features in 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Kushalhk/TG_BOTZ">
+<a href="https://heroku.com/deploy?template=https://github.com/jakharamit44/AutoFilter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -147,7 +115,7 @@ we are nothing without your support please support us to bring more features in 
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Kushalhk/TG_BOTZ&branch=stream-feature&name=TG_FILTER_BOT)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com//jakharamit44/AutoFilter&branch=main&name=TG_FILTER_BOT)
 </details>
 
 <details><summary>Deploy To Render</summary>
@@ -174,7 +142,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature">
+<a href="https://render.com/deploy?repo=https://github.com/jakharamit44/AutoFilter/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -182,7 +150,7 @@ Use these settings when adding a monitor:</b>
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Kushalhk/TG_BOTZ
+git clone https://github.com/jakharamit44/AutoFilter
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
