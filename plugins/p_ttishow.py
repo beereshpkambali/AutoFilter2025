@@ -194,7 +194,7 @@ async def gen_invite(bot, message):
 
 @Client.on_message(filters.command('ban') & filters.user(ADMINS))
 async def ban_a_user(bot, message):
-    # https://t.me/GetTGLink/4185
+    # https://github.com/jakharamit44/AutoFilter
     if len(message.command) == 1:
         return await message.reply('Give me a user id / username')
     r = message.text.split(None)
