@@ -1074,7 +1074,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/about_mr_abnormal")
+                          InlineKeyboardButton("☘️ Mr Abnormal ☘️", url="https://t.me/about_mr_abnormal")
                              ]
                             ]
                         )
@@ -1167,7 +1167,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/about_mr_abnormal")
+                          InlineKeyboardButton("☘️ Mr Abnormal ☘️", url="https://t.me/about_mr_abnormal")
                  ]
                 ]
             )
@@ -1542,7 +1542,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️', url="https://t.me/N33VARP")
+                    InlineKeyboardButton('☘️ Mr Abnormal ☘️', url="https://t.me/about_mr_abnormal")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1597,7 +1597,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('✪ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ✪', callback_data='stats')
+            InlineKeyboardButton('Statistics', callback_data='stats')
         ], [
             InlineKeyboardButton('• ꜰɪʟᴛᴇʀꜱ •', callback_data='filters'),
             InlineKeyboardButton('• ꜰɪʟᴇ ꜱᴛᴏʀᴇ •', callback_data='store_file')
@@ -1607,7 +1607,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ᴄᴏɴɴᴇᴄᴛɪᴏɴ •️', callback_data='coct'),
             InlineKeyboardButton('• ᴇxᴛʀᴀ ᴍᴏᴅꜱ •', callback_data='extra')
         ], [
-            InlineKeyboardButton('🆎  ꜰᴏɴᴛ  🆎', callback_data='font')
+            InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='font')
         ], [
             InlineKeyboardButton('• ʀᴜʟᴇꜱ •', callback_data='rule'), 
             InlineKeyboardButton('• ꜱᴇᴛᴛɪɴɢꜱ •', callback_data='settings')
@@ -2162,7 +2162,7 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/N33VARP>𝗡𝟯𝟯𝗩𝗔𝗥𝗣</a></b>"
+            cap = f"<b>🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/about_mr_abnormal>𝗡𝟯𝟯𝗩𝗔𝗥𝗣</a></b>"
         else:
             # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
