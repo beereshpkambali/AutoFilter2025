@@ -1,6 +1,4 @@
-#All this codes are created by our developers @anumitultrabots @SHD_KHAN @anonymous7370
-#we are nothing without your support please support us to bring more features in bot
-#♛┈⛧┈┈•༶❤ 𝗟𝗢𝗩𝗘 𝗬𝗢𝗨 𝗔𝗟𝗟 ❤༶•┈┈⛧┈♛
+
 import os
 import logging
 import random
@@ -55,13 +53,11 @@ async def start(client, message):
                     InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_text("👀")
-        await asyncio.sleep(1)
-        await m.delete()
-        m=await message.reply_text("⚡")
-        await asyncio.sleep(1)
-        await m.delete()
-        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
+        #use below 3 lines if you want
+        #m=await message.reply_text("⚡")
+        #await asyncio.sleep(1)
+        #await m.delete()
+        m=await message.reply_sticker("CAACAgUAAxkBAAEFPPVoyRSXXbZw3AuvlBZWpyYnoeFZGwACowQAAkig0VcSv6_VDIbqCx4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -109,7 +105,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                   ],[
-                    InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
+                    InlineKeyboardButton('Buy Premium ', callback_data='kushal') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -1094,3 +1090,4 @@ async def stop_button(bot, message):
     await asyncio.sleep(3)
     await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
     os.execl(sys.executable, sys.executable, *sys.argv)
+
