@@ -17,14 +17,14 @@ bughunter0 = Client(
     api_hash = os.environ.get("API_HASH", 'ad762fe0516f367115ba651d929cf429')
 )
 
-START_STRING = """ Hi {}, I'm Sticker Bot. 
+START_STRING = """ Hi {}, I'm Also a Sticker Bot. 
 
 I can Provide all Kind of Sticker Options Here """
 
 
 JOIN_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/anumitultrabots')
+        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/about_Mr_Abnormal')
         ]]
     )
 
@@ -60,7 +60,7 @@ async def getstickerasfile(bot, message):
         await tx.edit("Downloaded")
         await tx.edit("Uploading...")
         start = time.time()
-        await message.reply_document(file_path,caption="©NASRANI_UPDATE")
+        await message.reply_document(file_path,caption="Mr Abnormal")
         await tx.delete()   
         os.remove(file_path)
     except Exception as error:
