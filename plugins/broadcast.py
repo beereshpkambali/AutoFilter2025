@@ -7,7 +7,6 @@ from info import ADMINS
 from utils import broadcast_messages, broadcast_messages_group
         
 @Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
-# https://github.com/jakharamit44/AutoFilter
 async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
